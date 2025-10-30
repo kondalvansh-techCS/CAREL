@@ -1,0 +1,63 @@
+# CAREL v2.0 - Requirements
+# Core Dependencies
+
+# HTTP requests and API calls
+requests>=2.28.0
+urllib3>=1.26.0
+
+# Asynchronous operations
+aiohttp>=3.8.0
+asyncio>=3.9.0
+
+# DNS resolution and network operations
+dnspython>=2.2.0
+
+# SSL and security
+cryptography>=3.4.0
+pyOpenSSL>=22.0.0
+
+# Web automation and screenshots
+selenium>=4.8.0
+webdriver-manager>=3.8.0
+
+# Data parsing and manipulation
+beautifulsoup4>=4.11.0
+lxml>=4.9.0
+
+# Configuration and data handling
+PyYAML>=6.0
+colorama>=0.4.0
+
+# Networking and protocols
+paramiko>=3.0.0
+python-nmap>=0.7.1
+
+# Terminal UI and formatting
+rich>=13.0.0
+questionary>=1.10.0
+
+# File and path handling
+pathlib2>=2.3.0; python_version < '3.4'
+
+# Additional utilities
+tqdm>=4.64.0
+python-dotenv>=0.19.0
+
+# Tor proxy support (optional)
+PySocks>=1.7.1
+
+# PDF reporting (optional)
+reportlab>=3.6.0
+fpdf2>=2.5.0
+
+# Date and time handling
+python-dateutil>=2.8.0
+
+# JSON handling
+ijson>=3.1.0
+
+# Compression
+python-magic>=0.4.0
+
+# Platform-specific
+psutil>=5.9.0
